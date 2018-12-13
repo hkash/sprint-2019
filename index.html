@@ -39,9 +39,10 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
 
-        <!--Theme Responsive css-->
-        <link rel="stylesheet" href="assets/css/responsive.css" />
-
+        <!--Theme fluid css-->
+        <link rel="stylesheet" href="assets/css/fluid.css" />
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  -->
+        
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
 
@@ -49,7 +50,7 @@
 
 
         <!-- Preloader -->
-        <div id="loading">
+        <!-- <div id="loading">
             <div id="loading-center">
                 <div id="loading-center-absolute">
                     <div class="object" id="object_one"></div>
@@ -58,7 +59,7 @@
                     <div class="object" id="object_four"></div>
                 </div>
             </div>
-        </div><!--End off Preloader -->
+        </div> --><!--End off Preloader -->
 
 
         <div class="culmn">
@@ -66,14 +67,14 @@
 
 
             <nav class="navbar navbar-default bootsnav navbar-fixed">
-                <div class="navbar-top bg-grey fix">
-                    <div class="container">
+                <div class="navbar-top bg-black fix">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="navbar-callus text-left sm-text-center">
                                     <ul class="list-inline">
-                                        <li><a href=""><i class="fa fa-phone"></i> Call us: +91 900 78 76474</a></li>
-                                        <li><a href=""><i class="fa fa-envelope-o"></i> Contact us: sprint@spjimr.org</a></li>
+                                        <li><a class="text-white"><i class="fa fa-phone"></i> Call us: +91 703 25 21730</a></li>
+                                        <li><a class="text-white"><i class="fa fa-envelope-o"></i> Contact us: sprint@spjimr.org</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -96,7 +97,7 @@
 
                 <!-- Start Top Search -->
                 <div class="top-search">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-search"></i></span>
                             <input type="text" class="form-control" placeholder="Search">
@@ -107,7 +108,7 @@
                 <!-- End Top Search -->
 
 
-                <div class="container"> 
+                <div class="container-fluid"> 
                     <div class="attr-nav">
                         <ul>
                             <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
@@ -123,7 +124,7 @@
                         <a href="#home">
                             <!-- <img src="assets/images/logo.png" class="logo" alt=""> -->
                             <!-- SPRINT LOGO GOES HERE -->
-                            <img src="assets/images/sprint.png" alt="SPRINT LOGO">
+                            <img src="assets/images/sprint2019.png" alt="SPRINT LOGO">
                             <!-- This needs to be made relative - The image size -->
                         </a>
 
@@ -134,10 +135,10 @@
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#home">Home</a></li>                    
-                            <li><a href="#business">About Us</a></li>
-                            <li><a href="#product">Gallery</a></li>
-                            <li><a href="#test">Sponsors</a></li>
-                            <li><a href="#features">Events</a></li>
+                            <li><a href="#aboutus">About Us</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#sponsors">Sponsors</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -149,11 +150,23 @@
 
             <section id="home" class="home bg-black fix">
                 <div class="overlay"></div>
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="main_home text-center">
                             <div class="col-md-12">
-                                <div class="hello_slid">
+                                <!-- <div class="hello_slid">
+                                    <div class="slid_item"> -->
+                                        <div class="home_text ">
+                                            <!-- <h2 class="text-white">Welcome to</h2> -->
+                                            <h1 class="text-white">SPRINT 2019</h1>
+                                            <h2 class="text-white"><strong>#GoFullBlaze</strong></h2>
+                                        </div>
+
+                                        <div class="home_btns m-top-40">
+                                            <a target="_blank" href="https://goo.gl/forms/aOkxYh9DbjndOvni1" class="btn btn-primary m-top-20">Register Now</a>
+                                            <!-- <a href="" class="btn btn-default m-top-20">Know us More</a> -->
+                                        </div>
+                                    </div> <!--End off slid item
                                     <div class="slid_item">
                                         <div class="home_text ">
                                             <h2 class="text-white">Welcome to</h2>
@@ -165,7 +178,7 @@
                                             <a target="_blank" href="https://goo.gl/forms/kYmC3av5JeG4Tbwn2" class="btn btn-primary m-top-20">Register Now</a>
                                             <a href="" class="btn btn-default m-top-20">Know us More</a>
                                         </div>
-                                    </div><!-- End off slid item -->
+                                    </div> End off slid item
                                     <div class="slid_item">
                                         <div class="home_text ">
                                             <h2 class="text-white">Welcome to</h2>
@@ -177,47 +190,35 @@
                                             <a target="_blank" href="https://goo.gl/forms/kYmC3av5JeG4Tbwn2" class="btn btn-primary m-top-20">Register Now</a>
                                             <a href="" class="btn btn-default m-top-20">Know us More</a>
                                         </div>
-                                    </div><!-- End off slid item -->
-                                    <div class="slid_item">
-                                        <div class="home_text ">
-                                            <h2 class="text-white">Welcome to</h2>
-                                            <h1 class="text-white">SPRINT 2019</h1>
-                                            <h3 class="text-white"><strong>Go Full Blaze</strong></h3>
-                                        </div>
-
-                                        <div class="home_btns m-top-40">
-                                            <a target="_blank" href="https://goo.gl/forms/kYmC3av5JeG4Tbwn2" class="btn btn-primary m-top-20">Register Now</a>
-                                            <a href="" class="btn btn-default m-top-20">Know us More</a>
-                                        </div>
-                                    </div><!-- End off slid item -->
-                                </div>
-                            </div>
+                                    </div> End off slid item
+                                </div> -->
+                            <!-- </div> -->
 
                         </div>
 
 
                     </div><!--End off row-->
-                </div><!--End off container -->
+                </div><!--End off container-fluid -->
             </section> <!--End off Home Sections-->
 
             
 
-            <!--Business Section-->
-            <section id="business" class="business bg-grey roomy-70">
-                <div class="container">
+            <!--About Us Section-->
+            <section id="aboutus" class="business bg-grey roomy-70">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="main_business">
                             <div class="col-md-6">
-                                <div class="business_slid">
-                                    <div class="slid_shap bg-grey"></div>
+                                <div>
+                                    <div class="bg-grey"></div>
                                     <div class="business_items text-center">
                                         <div class="business_item">
                                             <div class="business_img">
-                                                <img src="assets/images/img-1.jpg" alt="" />
+                                                <img src="assets/images/datesImage.jpg" alt=""/>
                                             </div>
                                         </div>
 
-                                        <div class="business_item">
+                                        <!-- <div class="business_item">
                                             <div class="business_img">
                                                 <img src="assets/images/img-2.jpg" alt="" />
                                             </div>
@@ -227,20 +228,24 @@
                                             <div class="business_img">
                                                 <img src="assets/images/img-3.jpg" alt="" />
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
                             
                             <div class="col-md-6">
                                 <div class="business_item sm-m-top-50">
-                                    <h2 class="text-uppercase"><strong>SPRINT</strong> - an Emotion</h2>
+                                    <h2 class="text-uppercase">SPRINT <strong> - an Emotion</strong></h2>
                                     <!-- <ul>
                                         <li><i class="fa fa-arrow-circle-right"></i> Clean & Modern Design</li>
-                                        <li><i class="fa  fa-arrow-circle-right"></i> Fully Responsive</li>
+                                        <li><i class="fa  fa-arrow-circle-right"></i> Fully fluid</li>
                                         <li><i class="fa  fa-arrow-circle-right"></i> Google Fonts</li>
                                     </ul> -->
-                                    <h3><p class="m-top-20">SPRINT is the annual sports festival of SPJIMR, Mumbai. SPRINT 2018 is truly a celebration of courage and heart @SPJIMR! Scheduled on the 10th, 11th and 12th of Jan’19, it is a platform for all the _Sher-Dils_ out there to bring out the fire within. So charge up for the adrenaline-rush experience at the beginning of the new year 2019!</p></h3>
+                                    <h3><p class="m-top-20">SPRINT is the annual sports festival of SPJIMR, Mumbai. One of the biggest and most exciting B-School sports festivals in the country, SPRINT provides an opportunity for the Corporate Leaders of Tomorrow to put on their sporting shoes and fight it out in the arena for pure and eternal glory!</p>
+
+                                    <p>The 2018 edition of SPRINT saw a footfall of 3,000+ participants from top 25 B-schools across the country coming together to compete in over 18 events.</p>
+
+                                    <p>Scheduled on the 11th, 12th and 13th of January, the 2019 edition of SPRINT promises to be bigger, better and grander. Join us to IGNITE the sportsman spirit in you and #GoFullBlaze! </p></h3>
 
                                     <!-- <div class="business_btn">
                                         <a href="" class="btn btn-default m-top-20">Read More</a>
@@ -254,145 +259,87 @@
                 </div>
             </section><!-- End off Business section -->
 
+             <!--  video section  -->
+            <section id="video" class="bg-grey roomy-70">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <h2>Launch Video - SPRINT 2019</h2>
+                        </div>
+                    </div>
+                            <div align="center" style="position:relative;display:block;height:0;padding:0;overflow:hidden;padding-bottom:56.25%">
+                                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSpjimrSprint%2Fvideos%2F2274453852628146%2F&show_text=false&width=1080&mute=0&appId" width="1080" height="720" style="position:absolute;top:0;bottom:0;left:0;width:100%;height:100%;border:0;overflow:hidden;padding:2%;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+                            </div>
+                    </div>
+                </div>
+            </section>
+            <!--  video section  -->
+
 
             <!--product section-->
-            <section id="product" class="product">
-                <div class="container">
+            <section id="gallery" class="product">
+                <div class="container-fluid">
                     <div class="main_product roomy-80">
                         <div class="head_title text-center fix">
-                            <h2 class="text-uppercase">GALLERY - SPRINT 2018</h2>
-                            <h5>Down the memory lane</h5>
+                            <h2 class="text-uppercase">GALLERY</h2>
+                            <h3>A glimpse into the spirit of SPRINT</h3>
                         </div>
 
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
-                            <ol class="carousel-indicators">
+                            <!-- <ol class="carousel-indicators">
                                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            </ol>
+                                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+
+                            </ol> -->
 
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <div class="container">
+                                    <div class="container-fluid">
                                         <div class="row">
-                                            <div class="col-sm-3">
+                                            <div class="col-sm-4">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/img-4.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/img-4.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/img-5.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
+                                                        <img src="assets/images/img-5.jpg" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
                                                             <a href="assets/images/img-5.jpg" class="popup-img">+</a>
-                                                        </div>
+                                                        </div> -->
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
+                                                        <h5>SPRINT'18 Lounge</h5>
+                                                        <h6>- Participants chilling out </h6>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3">
+                                            <div class="col-sm-4">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/img-6.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/img-6.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/img-7.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/img-7.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/img-8.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
+                                                        <img src="assets/images/img-8.jpg" alt="" width="400" height="300"/>
+                                                       <!--  <div class="port_overlay text-center">
                                                             <a href="assets/images/img-8.jpg" class="popup-img">+</a>
-                                                        </div>
+                                                        </div> -->
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
+                                                        <h5>SPRINT'18 Volleyball</h5>
+                                                        <h6>- SPJIMR women's team</h6>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3">
+                                            <div class="col-sm-4">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/img-9.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/img-9.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/img-10.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/img-10.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/img-11.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
+                                                        <img src="assets/images/img-11.jpg" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
                                                             <a href="assets/images/img-11.jpg" class="popup-img">+</a>
-                                                        </div>
+                                                        </div> -->
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
+                                                        <h5>SPRINT'18 Basketball</h5>
+                                                        <h6>- An intense men's basketball game</h6>
                                                     </div>
                                                 </div>
                                             </div>
@@ -401,61 +348,193 @@
                                 </div>
 
                                 <div class="item">
-                                    <div class="container">
+                                    <div class="container-fluid">
                                         <div class="row">
-                                            <div class="col-sm-3">
+                                             <div class="col-sm-4">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/img-12.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/img-12.jpg" class="popup-img">+</a>
-                                                        </div>
+                                                        <img src="assets/images/sprint2019_9.JPG" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_9.jpg" class="popup-img">+</a>
+                                                        </div> -->
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
+                                                        <h5>SPRINT'19 Theme Launch</h5>
+                                                        <h6>- The Mallakhamb Project's performance</h6>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3">
+                                            <div class="col-sm-4">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/img-13.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/img-13.jpg" class="popup-img">+</a>
-                                                        </div>
+                                                        <img src="assets/images/sprint2019_11.JPG" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_11.jpg" class="popup-img">+</a>
+                                                        </div> -->
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
+                                                        <h5>SPJIMR Football League(SFL) 2018</h5>
+                                                        <h6>- Auction</h6>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3">
+                                            <div class="col-sm-4">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/img-14.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/img-14.jpg" class="popup-img">+</a>
-                                                        </div>
+                                                        <img src="assets/images/sprint2019_1.JPG" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_1.jpg" class="popup-img">+</a>
+                                                        </div> -->
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
+                                                        <h5>SFL 2018</h5>
+                                                        <h6>- Team Huddle</h6>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-sm-4">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/img-15.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/img-15.jpg" class="popup-img">+</a>
-                                                        </div>
+                                                        <img src="assets/images/sprint2019_2.JPG" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_2.jpg" class="popup-img">+</a>
+                                                        </div> -->
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5>Your Work Title</h5>
-                                                        <h6>- Graphic Design</h6>
+                                                        <h5>SFL 2018</h5>
+                                                        <h6>- Let the games begin</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/sprint2019_3.JPG" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_3.jpg" class="popup-img">+</a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>SFL 2018</h5>
+                                                        <h6>- Proud owners</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/sprint2019_5.JPG" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_5.jpg" class="popup-img">+</a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>SFL 2018</h5>
+                                                        <h6>- Players in action</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/sprint2019_6.JPG" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_6.jpg" class="popup-img">+</a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>SPJIMR Premier League(SPL) 2018</h5>
+                                                        <h6>- Auction</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/sprint2019_8.JPG" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_8.jpg" class="popup-img">+</a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>SPL 2018</h5>
+                                                        <h6>- The battle for the players</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/sprint2019_10.JPG" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_10.jpg" class="popup-img">+</a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>SPL 2018</h5>
+                                                        <h6>- The scorching pitch</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/sprint2019_12.JPG" alt="" width="400" height="300"/>
+                                                       <!--  <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_12.jpg" class="popup-img">+</a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>SPL 2018</h5>
+                                                        <h6>- Out!</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/sprint2019_13.JPG" alt="" width="400" height="300"/>
+                                                       <!--  <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_13.jpg" class="popup-img">+</a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>SPL 2018</h5>
+                                                        <h6>- The champions of SPL</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/sprint2019_14.JPG" alt="" width="400" height="300"/>
+                                                        <!-- <div class="port_overlay text-center">
+                                                            <a href="assets/images/sprint2019_14.jpg" class="popup-img">+</a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>SPL 2018</h5>
+                                                        <h6>- Why should guys have all the fun</h6>
                                                     </div>
                                                 </div>
                                             </div>
@@ -477,66 +556,361 @@
                             </a>
                         </div>
                     </div><!-- End off row -->
-                </div><!-- End off container -->
+                    <div class="row mt-3">
+                        <div class="videowrapper text-center col-md-6" align="center">
+                            <h2>Sprint Clap</h2>
+                            <div style="position:relative;display:block;height:0;padding:0;overflow:hidden;padding-bottom:56.25%">
+                                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSpjimrSprint%2Fvideos%2F535731226896442%2F&width=540&show_text=false&height=302&mute=0&appId" width="540" height="302" style="position:absolute;top:0;bottom:0;left:0;width:100%;height:100%;border:0;overflow:hidden;padding:2%;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+                            </div>
+                        </div>  
+                        <div class="videowrapper text-center col-md-6" align="center">
+                            <h2><a href="https://www.facebook.com/themallakhambproject/"> Mallakhamb </a> at Theme Launch</h2>
+                            <div style="position:relative;display:block;height:0;padding:0;overflow:hidden;padding-bottom:56.25%">
+                                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSpjimrSprint%2Fvideos%2F500298993786187%2F&width=540&show_text=false&height=302&mute=0&appId" width="540" height="302" style="position:absolute;top:0;bottom:0;left:0;width:100%;height:100%;border:0;overflow:hidden;padding:2%;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+                            </div>
+                        </div>  
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                </div><!-- End off container-fluid -->
             </section><!-- End off Product section -->
 
 
+            <!--Events Section-->
+            <section id="events" class="features">
+                <div class="container-fluid">
+                        <div class="main_features fix">
+                            <div class="head_title text-center fix">
+                                <h2 class="text-uppercase">EVENTS</h2>
+                            </div>
+                            <div class="row head_title fix">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-3"></div>
+                                <div class="col-md-3"></div>
+                                <div class="col-md-3" align="center">
+                                    <a target="_blank" href="RuleBook.pdf" class="btn btn-primary">Rule Book</a>
+                                </div>
+                                
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3" data-toggle="modal" data-target="#football" align="center">
+                                    <img class="img-fluid" src="assets/images/footballPoster.jpg" alt="" width="250" height="350"style="padding-bottom: 2%;"/>
+                                </div>
+                                <div class="modal fade" id="football" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">FOOTBALL</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - Pranav Byatnal <strong><i class="fa fa-phone" ></i></strong>  9769500584 </h5>
+                                                <img src="assets/images/footballPoster.jpg" alt="football" class="event_image"/>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3" data-toggle="modal" data-target="#athletics" align="center">
+                                    <img class="img-fluid" src="assets/images/athleticsPoster.jpg" alt="" width="250" height="350" style="padding-bottom: 2%;"/>
+                                </div>
+                                <div class="modal fade" id="athletics" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">ATHLETICS</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - Sanket Shah <strong><i class="fa fa-phone" ></i></strong>  8097540964 </h5>
+                                                <img src="assets/images/athleticsPoster.jpg" alt="athletics" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3" data-toggle="modal" data-target="#badminton" align="center">
+                                    <img class="img-fluid" src="assets/images/badmintonPoster.jpg" alt="" width="250" height="350" style="padding-bottom: 2%;"/>
+                                </div>
+                                <div class="modal fade" id="badminton" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">BADMINTON</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - Adarsh Mahadevan <strong><i class="fa fa-phone" ></i></strong>  8075402068 </h5>
+                                                <img src="assets/images/badmintonPoster.jpg" alt="badminton" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3" data-toggle="modal" data-target="#basketball" align="center">
+                                    <img class="img-fluid" src="assets/images/basketballPoster.jpg" alt="" width="250" height="350"/>
+                                </div>
+                                <div class="modal fade" id="basketball" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">BASKETBALL</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - Neha Agarwal <strong><i class="fa fa-phone" ></i></strong>  9971003526 </h5>
+                                                <img src="assets/images/basketballPoster.jpg" alt="basketball" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-3" data-toggle="modal" data-target="#carrom" align="center">
+                                    <img class="img-fluid" src="assets/images/carromPoster.jpg" alt="" width="250" height="350" style="padding-bottom: 2%;"/>
+                                </div>
+                                <div class="modal fade" id="carrom" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">CARROM</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - Meenakshi Joshi <strong><i class="fa fa-phone" ></i></strong>  9603211271 </h5>
+                                                <img src="assets/images/carromPoster.jpg" alt="carrom" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3" data-toggle="modal" data-target="#chess" align="center">
+                                    <img class="img-fluid" src="assets/images/chessPoster.jpg" alt="" width="250" height="350" style="padding-bottom: 2%;"/>
+                                </div>
+                                <div class="modal fade" id="chess" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">CHESS</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - Meenakshi Joshi <strong><i class="fa fa-phone" ></i></strong>  9603211271 </h5>
+                                                <img src="assets/images/chessPoster.jpg" alt="chess" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3" data-toggle="modal" data-target="#cricket" align="center">
+                                    <img class="img-fluid" src="assets/images/cricketPoster.jpg" alt="" width="250" height="350" style="padding-bottom: 2%;"/>
+                                </div>
+                                <div class="modal fade" id="cricket" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">CRICKET</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - DIVYA TEJA K <strong><i class="fa fa-phone" ></i></strong>
+                                                9444369148 </h5>
+                                                <img src="assets/images/cricketPoster.jpg" alt="cricket" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3" data-toggle="modal" data-target="#futsal" align="center">
+                                    <img class="img-fluid" src="assets/images/futsalPoster.jpg" alt="" width="250" height="350"/>
+                                </div>
+                                <div class="modal fade" id="futsal" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">FUTSAL</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - HARSHIT RAJPUT <strong><i class="fa fa-phone" ></i></strong>
+                                                7737783660 </h5>
+                                                <img src="assets/images/futsalPoster.jpg" alt="futsal" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-3" data-toggle="modal" data-target="#lawntennis" align="center">
+                                    <img class="img-fluid" src="assets/images/lawnTennisPoster.jpg" alt="" width="250" height="350" style="padding-bottom: 2%;"/>
+                                </div>
+                                <div class="modal fade" id="lawntennis" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">LAWN TENNIS</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - DHIREN GALA <strong><i class="fa fa-phone" ></i></strong>
+                                                9951752090 </h5>
+                                                <img src="assets/images/lawnTennisPoster.jpg" alt="lawntennis" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3" data-toggle="modal" data-target="#squash" align="center">
+                                    <img class="img-fluid" src="assets/images/squashPoster.jpg" alt="" width="250" height="350"style="padding-bottom: 2%;"/>
+                                </div>
+                                <div class="modal fade" id="squash" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">SQUASH</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - HARSHIT RANJAN <strong><i class="fa fa-phone" ></i></strong>
+                                                7894398657 </h5>
+                                                <img src="assets/images/squashPoster.jpg" alt="squash" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3" data-toggle="modal" data-target="#throwball" align="center">
+                                    <img class="img-fluid" src="assets/images/throwballPoster.jpg" alt="" width="250" height="350" style="padding-bottom: 2%;"/>
+                                </div>
+                                <div class="modal fade" id="throwball" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">THROWBALL</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - GEETIKA CHANANA <strong><i class="fa fa-phone" ></i></strong>
+                                                9899959008 </h5>
+                                                <img src="assets/images/throwballPoster.jpg" alt="throwball" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3" data-toggle="modal" data-target="#tt" align="center">
+                                    <img class="img-fluid" src="assets/images/TTPoster.jpg" alt=""  width="250" height="350"/>
+                                </div>
+                                <div class="modal fade" id="tt" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">TABLE TENNIS</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - SAPAN GANDHI <strong><i class="fa fa-phone" ></i></strong>
+                                                7567898185 </h5>
+                                                <img src="assets/images/TTPoster.jpg" alt="tabletennis" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-3" data-toggle="modal" data-target="#volleyball" align="center">
+                                    <img class="img-fluid" src="assets/images/volleyballPoster.jpg" alt="" width="250" height="350" style="padding-bottom: 2%;"/>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="volleyball" role="dialog">
+                                    <div class="modal-dialog" style="width:400px;height:240px">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">VOLLEYBALL</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Contact - ARJUN M.P. <strong><i class="fa fa-phone" ></i></strong>
+                                                9400642170 </h5>
+                                                <img src="assets/images/volleyballPoster.jpg" alt="volleyball" class="event_image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div><!-- End off row -->
+                </div><!-- End off container-fluid -->
+            </section><!-- End off Featured Section-->
 
             <!--Test section-->
-            <section id="test" class="test bg-grey roomy-60 fix">
-                <div class="container">
+            <section id="sponsors" class="test bg-grey roomy-60 fix">
+                <div class="container-fluid">
                     <div class="row">                        
                         <div class="main_test fix">
+
+                           
 
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="head_title text-center fix">
                                     <h2 class="text-uppercase">SPONSORS</h2>
-                                    <h5>Our Sponsors</h5>
+                                    <!-- <h5>Our Sponsors</h5> -->
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="center flashing col-md-6 ">
+                                <div>
+                                    <h4 align="center">Co-Title Sponsor</h4>
+                                </div>
+                                
+                                <div align="center">
+                                    <img class="center" src="assets/images/ongc.png" alt="" width="150" height="150" style="padding-bottom: 20px;"/>
+                                </div>
+                            </div>
+
+                            
+                            <div class="center flashing col-md-6">
+                                <div>
+                                    <h4 align="center">Tea Partner</h4>
+                                </div>
+    
+                                <div align="center">
+                                    <img class="center" src="assets/images/Chaayos.png" alt="" width="150" height="150" style="padding-bottom: 20px;"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="row mt-3">
+                            <div>
+                                <h4 align="center">Watch this space for more</h4>
+                            </div>
+                        </div>
+                            <!-- <div class="center flashing">
+                              <div class="col-md-4 col-xs-6"></div>
+                              <div class="col-md-4 col-xs-6"><p>Co-Title Sponsor</p></div>
+                              <div class="col-md-4 col-xs-6"></div>
+                            </div> -->
+
+                           <!--  <div class="center flashing">
+                              <div class="col-md-4 col-xs-6"></div>
+                              <div class="col-md-4 col-xs-6"><img class="center" src="assets/images/ongc.png" alt="" width="150" height="150"/></div>
+                              <div class="col-md-4 col-xs-6"></div>
+                            </div> -->
+
+                            <!-- <div class="col-md-6">
                                 <div class="test_item fix">
                                     <div class="item_img">
                                         <img class="img-circle" src="assets/images/test-img1.jpg" alt="" />
                                         <i class="fa fa-quote-left"></i>
                                     </div>
 
-                                   <!--  <div class="item_text">
+                                    <div class="item_text">
                                         <h5>Sarah Smith</h5>
                                         <h6>envato.com</h6>
 
                                         <p>Natus voluptatum enim quod necessitatibus quis
                                             expedita harum provident eos obcaecati id culpa
                                             corporis molestias.</p>
-                                    </div> -->
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="test_item fix sm-m-top-30">
-                                    <div class="item_img">
-                                        <img class="img-circle" src="assets/images/test-img2.jpg" alt="" />
-                                        <i class="fa fa-quote-left"></i>
                                     </div>
-
-                                   <!--  <div class="item_text">
-                                        <h5>Sarah Smith</h5>
-                                        <h6>envato.com</h6>
-
-                                        <p>Natus voluptatum enim quod necessitatibus quis
-                                            expedita harum provident eos obcaecati id culpa
-                                            corporis molestias.</p>
-                                    </div> -->
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="col-md-6">
-                                <div class="test_item fix sm-m-top-30">
-                                    <div class="item_img">
-                                        <img class="img-circle" src="assets/images/test-img2.jpg" alt="" />
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
+                           
 
                                     <!-- <div class="item_text">
                                         <h5>Sarah Smith</h5>
@@ -546,127 +920,19 @@
                                             expedita harum provident eos obcaecati id culpa
                                             corporis molestias.</p>
                                     </div> -->
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6">
-                                <div class="test_item fix sm-m-top-30">
-                                    <div class="item_img">
-                                        <img class="img-circle" src="assets/images/test-img2.jpg" alt="" />
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-
-                                    <!-- <div class="item_text">
-                                        <h5>Sarah Smith</h5>
-                                        <h6>envato.com</h6>
-
-                                        <p>Natus voluptatum enim quod necessitatibus quis
-                                            expedita harum provident eos obcaecati id culpa
-                                            corporis molestias.</p>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
+                               
+                        
+                        <!-- </div> -->
                     </div>
                 </div>
             </section><!-- End off test section -->
 
-            <!--Featured Section-->
-            <section id="features" class="features">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_features fix roomy-70">
-                            <div class="head_title text-center fix">
-                                <h2 class="text-uppercase">EVENTS</h2>
-                            </div>
-                            <div class="col-md-3">
-                                <!-- <div class="features_item sm-m-top-30"> -->
-                                   <!--  <div class="f_item_icon">
-                                        <i class="fa fa-thumbs-o-up"></i>
-                                    </div> -->
-                                    <div class="f_item_text">
-                                        <h3>Cricket</h3>
-                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque eleifend
-                                            in sit amet mattis volutpat rhoncus.</p> -->
-                                            <img src="assets/images/cricket.png" alt="" />
-                                    </div>
-                                <!-- </div> -->
-                            </div>
-                            <div class="col-md-3">
-                                <!-- <div class="features_item sm-m-top-30"> -->
-                                    <!-- <div class="f_item_icon">
-                                        <i class="fa fa-tablet"></i>
-                                    </div> -->
-                                    <div class="f_item_text">
-                                        <h3>Football</h3>
-                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque eleifend
-                                            in sit amet mattis volutpat rhoncus.</p> -->
-                                            <img src="assets/images/football.png" alt="" />
-                                    </div>
-                                <!-- </div> -->
-                            </div>
-                            <div class="col-md-3">
-                                <!-- <div class="features_item sm-m-top-30"> -->
-                                    <!-- <div class="f_item_icon">
-                                        <i class="fa fa-sliders"></i>
-                                    </div> -->
-                                    <div class="f_item_text">
-                                        <h3>Throwball</h3>
-                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque eleifend
-                                            in sit amet mattis volutpat rhoncus.</p> -->
-                                            <img height="60" width="60" src="assets/images/throwball.png" alt="" />
-                                    </div>
-                                <!-- </div> -->
-                            </div>
-                            <div class="col-md-3">
-                                <!-- <div class="features_item sm-m-top-30"> -->
-                                    <!-- <div class="f_item_icon">
-                                        <i class="fa fa-sliders"></i>
-                                    </div> -->
-                                    <div class="f_item_text">
-                                        <h3>Tennis</h3>
-                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque eleifend
-                                            in sit amet mattis volutpat rhoncus.</p> -->
-                                            <img src="assets/images/tennis.png" alt="" />
-                                    </div>
-                                <!-- </div> -->
-                            </div>
-                            <div class="col-md-3">
-                                <!-- <div class="features_item sm-m-top-30"> -->
-                                    <!-- <div class="f_item_icon">
-                                        <i class="fa fa-sliders"></i>
-                                    </div> -->
-                                    <div class="f_item_text">
-                                        <h3>Badminton</h3>
-                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque eleifend
-                                            in sit amet mattis volutpat rhoncus.</p> -->
-                                            <img src="assets/images/badminton.png" alt="" />
-                                    </div>
-                                <!-- </div> -->
-                            </div>
-                            <div class="col-md-3">
-                                <!-- <div class="features_item sm-m-top-30"> -->
-                                    <!-- <div class="f_item_icon">
-                                        <i class="fa fa-sliders"></i>
-                                    </div> -->
-                                    <div class="f_item_text">
-                                        <h3>Basketball</h3>
-                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque eleifend
-                                            in sit amet mattis volutpat rhoncus.</p> -->
-                                            <img src="assets/images/basketball.png" alt="" />
-                                    </div>
-                                <!-- </div> -->
-                            </div>
-                        </div>
-                    </div><!-- End off row -->
-                </div><!-- End off container -->
-            </section><!-- End off Featured Section-->
+            
 
 
             <!--Brand Section-->
            <!--  <section id="brand" class="brand fix roomy-80">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="main_brand text-center">
                             <div class="col-md-2 col-sm-4 col-xs-6">
@@ -707,7 +973,7 @@
 
             <!--Call to  action section-->
            <!--  <section id="action" class="action bg-primary roomy-40">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="maine_action">
                             <div class="col-md-8">
@@ -728,41 +994,56 @@
 
 
 
-            <footer id="contact" class="footer action-lage bg-black p-top-80">
+            <footer id="contact" class="footer bg-black p-top-80">
                 <!--<div class="action-lage"></div>-->
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="widget_area">
-                            <div class="col-md-3">
+                            <div class="col-md-6">
                                 <div class="widget_item widget_about">
                                     <h5 class="text-white">Contact</h5>
-                                    <p class="m-top-20">Name + Number</p>
-                                    <div class="widget_ab_item m-top-30">
-                                        <div class="item_icon"><i class="fa fa-location-arrow"></i></div>
-                                        <div class="widget_ab_item_text">
-                                            <h6 class="text-white">Location</h6>
-                                            <p>
-                                                Bhavan's Campus</p>
-                                        </div>
-                                    </div>
-                                    <div class="widget_ab_item m-top-30">
+                                    <p class="text-white m-top-20">Rajesh Devaguptapu<br>Convenor - SPRINT 2019 <br> <i class="fa fa-phone"></i>  +91 703 25 21730 <br> <i class="fa fa-envelope-o"></i>   sprint@spjimr.org</p>
+                                    
+                                    <!-- <div class="widget_ab_item m-top-30">
                                         <div class="item_icon"><i class="fa fa-phone"></i></div>
                                         <div class="widget_ab_item_text">
                                             <h6 class="text-white">Phone :</h6>
-                                            <p>+1 2345 6789</p>
+                                            <p>+91 000 00 00000</p>
                                         </div>
                                     </div>
                                     <div class="widget_ab_item m-top-30">
                                         <div class="item_icon"><i class="fa fa-envelope-o"></i></div>
                                         <div class="widget_ab_item_text">
                                             <h6 class="text-white">Email Address :</h6>
-                                            <p>youremail@mail.com</p>
+                                            <p>sprint@spjimr.org</p>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div><!-- End off widget item -->
                             </div><!-- End off col-md-3 -->
 
-                            <!-- <div class="col-md-3">
+                             <div class="col-md-3">
+                                <div class="widget_ab_item">
+                                    <div class="item_icon"><i class="fa fa-location-arrow"></i></div>
+                                        <div class="widget_ab_item_text">
+                                            <h5 class="text-white">Location</h5>
+                                                <p class="text-white" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                                                    SPJIMR
+                                                    <br> Bhavan's Campus
+                                                    <br> Munshi Nagar, Dadabhai Road
+                                                    <br> Andheri West, Mumbai 400 058
+                                                </p>          
+                                        </div>
+                                         
+                                    </div>
+                            </div>
+
+
+                            <div class="col-md-3">
+                                <div class="footer-col col-md-3">      
+                                              <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3769.609538195263!2d72.835368!3d19.124778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb21f38cb0efce957!2sS.+P.+Jain+Business+School+in+Mumbai%2C+India!5e0!3m2!1sen!2sus!4v1513053179722" width="300" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+<!--
                                 <div class="widget_item widget_latest sm-m-top-50">
                                     <h5 class="text-white">Latest News</h5>
                                     <div class="widget_latst_item m-top-30">
@@ -852,8 +1133,8 @@
 
         <!-- JS includes -->
 
-        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <!-- <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script> -->
 
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/jquery.magnific-popup.js"></script>
@@ -867,6 +1148,11 @@
 
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
+
+        <!-- <script src="assets/js/vendor/jquery-3.3.1.js"></script> -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     </body>
 </html>
